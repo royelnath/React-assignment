@@ -7,14 +7,14 @@ import Skills from './pages/Skills'
 import Weather from './pages/Weather'
 import Err from './pages/Err'
 import Submit from './pages/Submit'
-import Navbar from './Component/Navbar'
+// import Navbar from './Component/Navbar'
 
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
+
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path="/contact" element={<Contact />} />
