@@ -21,8 +21,8 @@ function App() {
           <Route path='/education' element={<Education />} />
           <Route path='/skills' element={<Skills />} />
           <Route path='/weather' element={<Weather />} />
-          <Route path='*' element={<Err />} />
           <Route path='/submit' element={<Submit />} />
+          <Route path='*' element={<Err />} />
         </Routes>
       </BrowserRouter>
     </>
