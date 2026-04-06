@@ -14,9 +14,19 @@ function App() {
   return (
     <>
       <BrowserRouter>
-
+        <nav>
+          <Link to="/">Home</Link>
+          <Link to="/skills">Skills</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/education">Education</Link>
+          <Link to="/weather">Weather</Link>
+        </nav>
         <Routes>
-          <Route path='/home' element={<Home />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/skills' element={<Skills />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/education' element={<Education />} />
+          <Route path='/weather' element={<Weather />} />
 
         </Routes>
       </BrowserRouter>
